@@ -35,7 +35,7 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 | Week 13   | Case Study Presentation | Group Presentation & Report |
 
 ## Questions
-Students can raise issues from this Github repository, through [Issue](https://github.com/weisongwen/AAE4203-2425S1/issues) item.
+Students can raise issues from this Github repository, through [Issue](https://github.com/weisongwen/AAE4011-S22425/issues) item.
   
 <!-- ## Students Tasks -->
 
