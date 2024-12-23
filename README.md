@@ -6,7 +6,7 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 
 </details>
 <p align="center">
-  <img width="712pix" src="img/logoUAS.png">
+  <img width="520pix" src="img/logoUAS.png">
 </p>
 
 
