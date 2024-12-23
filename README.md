@@ -1,15 +1,15 @@
 <!-- <font  size=6><b><center>PolyU_AAE4203</center></b></font> -->
 
-## AAE4203, Guidance and Navigation 
+## AAE4011, [Artificial Intelligence for Unmanned Autonomous Systems](https://docs.google.com/document/d/1evkaqgUsWDdSDvY9Zm6FBqsnh5A1gimYBNyAudR07Pc/edit?tab=t.0)
 
-This is the Github page for lecture AAE4203, Guidance and Navigation. This page will include the example code, and some learning materials. More importantly, students can raise issues from this Github repository, through [Issue](https://github.com/weisongwen/AAE4203-2425S1/issues) item.
+This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanned Autonomous Systems. This page will include the example code, and some learning materials. More importantly, students can raise issues from this Github repository, through [Issue](https://github.com/weisongwen/AAE4011-S22425/issues) item.
 
 
 - **Lecturer**: [Dr. Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/), [Departmnet of Aeronautical and Aviation Engineering](https://www.polyu.edu.hk/aae/) (AAE)
-- **Adddress**: PQ408, PolyU. 
+- **Adddress**: R820, PolyU. 
 - **Email**: welson.wen@polyu.edu.hk
-- **Teaching Assistant**: Ruijie Xu, Xikun Liu, Yuan Li, Yihan Zhong. 
-- **Lecture Venue and Time**: BC303, Thu 15:30-18:20
+- **Teaching Assistant**: Shaoting Qiu, Xin Wang. 
+- **Lecture Venue and Time**: FJ303, Fri 08:30-11:20 AM
 
 ## Class Schedule
 
