@@ -30,7 +30,7 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 | Week 8  (14 Mar)  | Mid-term | [Assignment 1](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/AAE4203%20Assignment%201%20(20241008)(1).pdf) Deadline (24 Oct)|
 | Week 9   (21 Mar) | [Supervised Learning: Theory and Applications (part 2)](http://google.com) | Assignment 2 |
 | Week 10  (28 Mar) | Multiple Layer Perceptron and CNN: Part 1: [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%2010%20%5BState%20Estimation%20I%5D%206%20Nov%20Dr.%20Wen%20-%20Short.pdf) | Assignment 2 |
-| Week 11  (4 Apr) **Holiday** | Multiple Layer Perceptron and CNN: Part 2: [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%2011%20%5BState%20Estimation%20II%5D%2014%20Nov%20Dr.%20Wen.pdf) | Assignment 2 |
+| Week 11  (4 Apr) **Holiday** | No lecture for this week | Assignment 2 |
 | Week 12  (11 Apr) | Case Study Presentation | Group Presentation & Report |
 | Week 13  (18 Apr) **Holiday** | Case Study Presentation (makeup class, probably on a weekend) | Group Presentation & Report |
 
