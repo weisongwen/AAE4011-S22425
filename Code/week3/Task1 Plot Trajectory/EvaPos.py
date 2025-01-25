@@ -12,15 +12,12 @@ file_path2 = 'C:/Users/Weisong Wen/Dropbox/PolyU AAE Teaching-Weisong/PolyU AAE4
 
 data1 = pd.read_csv(file_path1)
 data2 = pd.read_csv(file_path2)
-
-# Assuming both CSV files have columns named 'Time', 'PosX', 'PosY', 'PosZ', 'VelX', 'VelY', 'VelZ', 'QuatW', 'QuatX', 'QuatY', 'QuatZ'
 time1 = data1['Time']
-# normalized_time_vector = time1 - time1.iloc[0]
 data1['Time'] = (data1['Time'] - time1.iloc[0])/(1e09)
-# print((data1['Time'])/(1e09))
-
 pos1 = data1[['PosX', 'PosY', 'PosZ']]
 vel1 = data1[['VelX', 'VelY', 'VelZ']]
+
+
 quat1 = data1[['QuatW', 'QuatX', 'QuatY', 'QuatZ']]
 
 time2 = data2['Time']
@@ -48,7 +45,7 @@ fig, axs = plt.subplots(2, 2, figsize=(15, 10))
 
 # First subplot
 axs[0, 0].plot(pos1['PosX'], pos1['PosY'], marker='', linestyle='-', color='r',label='Baseline')
-axs[0, 0].plot(pos2['PosX'], pos2['PosY'], marker='', linestyle='-', color='b',label='Proposed')
+# axs[0, 0].plot(pos2['PosX'], pos2['PosY'], marker='', linestyle='-', color='b',label='Proposed')
 axs[0, 0].set_title('Trajectory (X-Y)')
 axs[0, 0].set_xlabel('X direction')
 axs[0, 0].set_ylabel('Y direction')
