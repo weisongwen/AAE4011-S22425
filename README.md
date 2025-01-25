@@ -20,16 +20,16 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 
 | Sem. Week | Topics Taught | Assessment |
 |-----------|---------------|------------|
-| Week 1 (17 Jan) | Introduction of the Artificial Intelligence for Unmanned Autonomous Systems: [(Code)](https://github.com/weisongwen/AAE4203-2425S1/tree/main/Sample_Codes/Wifi_RTT), [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%201%2017%20Jan%20%5BFundermentals%5D%20(Dr.Wen)%20(1).pdf), [Video](https://www.youtube.com/watch?v=AUQ6hwc_2zw&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk)| Assignment 1 |
-| Week 2  (24 Jan)  | Fundamentals of Programming for AI: [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%201%20%5BFundermental%20Concepts%5D%20Dr.%20Weisong%20Wen%20(20240904).pdf),[Video](https://www.youtube.com/watch?v=RT-zQephBjE&t=1s)| Assignment 1 |
-| Week 3  (7 Feb) | Introduction to the Unmanned Autonomous Systems: [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%202%20%5BSatellite%20Navigation%5D%20(20240907)(1).pdf), [Video]() | Assignment 1 |
+| Week 1 (17 Jan) | Introduction of the Artificial Intelligence for Unmanned Autonomous Systems (part 1): [(Code)](https://github.com/weisongwen/AAE4011-S22425/tree/main/Code/week1_2), [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%201%2017%20Jan%20%5BFundermentals%5D%20(Dr.Wen)%20(1).pdf), [Video](https://www.youtube.com/watch?v=AUQ6hwc_2zw&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk)| Assignment 1 |
+| Week 2  (24 Jan)  | Introduction of the Artificial Intelligence for Unmanned Autonomous Systems (part 2): [(Code)](https://github.com/weisongwen/AAE4011-S22425/tree/main/Code/week1_2), [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%201%2017%20Jan%20%5BFundermentals%5D%20(Dr.Wen)%20(1).pdf), [Video](https://www.youtube.com/watch?v=AUQ6hwc_2zw&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk)| Assignment 1 |
+| Week 3  (7 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems: [Lecture Note], Video | Assignment 1 |
 | Week 4   (14 Feb) | Linear Regression and Logic Regression: Theory and Applications | Assignment 1 |
-| Week 5   (21 Feb) | Unsupervised Learning: Theory and Applications [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%202%20%5BSatellite%20Navigation%5D%20(20240907)(1).pdf), [Video](https://www.youtube.com/watch?v=cw0ygogTAMQ&t=5s)| Assignment 1 |
-| Week 6   (28 Feb) | Supervised Learning: Theory and Applications (part 1) [lab](https://github.com/weisongwen/AAE4203-2425S1/blob/main/lab/GNSS%20Navigation%20Lab.pdf)| Assignment 1 |
-| Week 7   (7 Mar) | Lab Session：[Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%203%20%5BSatellite%20Navigation%5D%20(20240909).pdf)| Assignment 1 |
+| Week 5   (21 Feb) | Unsupervised Learning: Theory and Applications Lecture Note, Video| Assignment 1 |
+| Week 6   (28 Feb) | Supervised Learning: Theory and Applications (part 1) | Assignment 1 |
+| Week 7   (7 Mar) | Lab Session：Lecture Note| Assignment 1 |
 | Week 8  (14 Mar)  | Mid-term | Assignment 1 |
-| Week 9   (21 Mar) | [Supervised Learning: Theory and Applications (part 2)](http://google.com) | Assignment 2 |
-| Week 10  (28 Mar) | Multiple Layer Perceptron and CNN: Part 1: [Lecture Note](https://github.com/weisongwen/AAE4203-2425S1/blob/main/Lecture_Notes/Week%2010%20%5BState%20Estimation%20I%5D%206%20Nov%20Dr.%20Wen%20-%20Short.pdf) | Assignment 2 |
+| Week 9   (21 Mar) | Supervised Learning: Theory and Applications (part 2) | Assignment 2 |
+| Week 10  (28 Mar) | Multiple Layer Perceptron and CNN: Part 1: Lecture Note | Assignment 2 |
 | Week 11  (4 Apr) **Holiday** | No lecture for this week | Assignment 2 |
 | Week 12  (11 Apr) | Case Study Presentation | Group Presentation & Report |
 | Week 13  (18 Apr) **Holiday** | Case Study Presentation (makeup class, probably on a weekend) | Group Presentation & Report |
