@@ -22,9 +22,9 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 |-----------|---------------|------------|
 | Week 1 (17 Jan) | Introduction of the Artificial Intelligence for Unmanned Autonomous Systems (part 1): [(Code)](https://github.com/weisongwen/AAE4011-S22425/tree/main/Code/week1_2), [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%201%2017%20Jan%20%5BFundermentals%5D%20(Dr.Wen)%20(1).pdf), [Video](https://www.youtube.com/watch?v=AUQ6hwc_2zw&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk)| Assignment 1 |
 | Week 2  (24 Jan)  | Introduction of the Artificial Intelligence for Unmanned Autonomous Systems (part 2): [(Code)](https://github.com/weisongwen/AAE4011-S22425/tree/main/Code/week1_2), [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%201%2017%20Jan%20%5BFundermentals%5D%20(Dr.Wen)%20(1).pdf), [Video](https://www.youtube.com/watch?v=ACdWprBk7SI)| Assignment 1 |
-| Week 3  (7 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems: [Lecture Note], Video | Assignment 1 |
-| Week 4   (14 Feb) | Linear Regression and Logic Regression: Theory and Applications | Assignment 1 |
-| Week 5   (21 Feb) | Unsupervised Learning: Theory and Applications Lecture Note, Video| Assignment 1 |
+| Week 3  (7 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems (part 1): [Lecture Note], [Video](https://www.youtube.com/watch?v=EgOFsWKdrIo&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=4) | Assignment 1 |
+| Week 4   (14 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems (part 2): [Lecture Note],[Video](https://www.youtube.com/watch?v=olt2JpXaSQo&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=5) | Assignment 1 |
+| Week 5   (21 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems (part 3): [Lecture Note],[Video](https://www.youtube.com/watch?v=2VeyyH_P9QY&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=3)| Assignment 1 |
 | Week 6   (28 Feb) | Supervised Learning: Theory and Applications (part 1) | Assignment 1 |
 | Week 7   (7 Mar) | Lab Session：Lecture Note| Assignment 1 |
 | Week 8  (14 Mar)  | Mid-term | Assignment 1 |
