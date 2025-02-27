@@ -25,7 +25,7 @@ This is the Github page for lecture AAE4011, Artificial Intelligence for Unmanne
 | Week 3  (7 Feb) | Fundamentals of Programming for AI, Introduction to the Unmanned Autonomous Systems (part 1): [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%203%20Fundamentals%20of%20Programming%20for%20AI_V2.pdf), [Video](https://www.youtube.com/watch?v=EgOFsWKdrIo&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=4) | Assignment 1 |
 | Week 4   (14 Feb) | Fundamentals of Programming for AI with Python (part 2): [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%203%20Fundamentals%20of%20Programming%20for%20AI_V2.pdf), [Video](https://www.youtube.com/watch?v=olt2JpXaSQo&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=5) | Assignment 1 |
 | Week 5   (21 Feb) | Fundamentals of Programming for AI with Python (part 3): [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week%203%20Fundamentals%20of%20Programming%20for%20AI_V2.pdf), [Video](https://www.youtube.com/watch?v=2VeyyH_P9QY&list=PLCEwmtiH0qPAceNudBxc6Bbtnn17wQ_Tk&index=3)| Assignment 1 |
-| Week 6   (28 Feb) | Supervised Learning: Theory and Applications (part 1) | Assignment 1 |
+| Week 6   (28 Feb) | Linear Regression and Logistic Regression: Theory and Applications: [Lecture Note](https://github.com/weisongwen/AAE4011-S22425/blob/main/Lecture%20Notes/Week5%20Regressions%20and%20Analysis_V1.pdf)| Assignment 1 |
 | Week 7   (7 Mar) | Lab Session：Lecture Note| Assignment 1 |
 | Week 8  (14 Mar)  | Mid-term | Assignment 1 |
 | Week 9   (21 Mar) | Supervised Learning: Theory and Applications (part 2) | Assignment 2 |
