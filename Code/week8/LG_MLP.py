@@ -1,4 +1,3 @@
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -75,42 +74,64 @@ print(classification_report(y_test, y_pred_log_reg))
 print("\nMLP Classification Report:")
 print(classification_report(y_test, y_pred_mlp))
 
-# Create a mesh grid for visualization
-def plot_decision_boundary(model, X, y, title):
+# Visualization function for decision boundaries
+def plot_decision_boundaries(X, y, models, titles, accuracies):
+    # Set up the figure with two subplots side by side
+    fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+    
+    # Create mesh grid
     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
     y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
-    h = 0.02  # Step size in the mesh
-    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+    resolution = 0.02
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, resolution), 
+                         np.arange(y_min, y_max, resolution))
     
-    # Standardize mesh grid points
-    mesh_points = np.c_[xx.ravel(), yy.ravel()]
-    mesh_points_scaled = scaler.transform(mesh_points)
+    # Plot for each model
+    for i, (model, title, accuracy) in enumerate(zip(models, titles, accuracies)):
+        # Predict with the model
+        mesh_points = np.c_[xx.ravel(), yy.ravel()]
+        mesh_points_scaled = scaler.transform(mesh_points)
+        Z = model.predict(mesh_points_scaled)
+        Z = Z.reshape(xx.shape)
+        
+        # Plot decision boundary and points
+        axes[i].contourf(xx, yy, Z, alpha=0.4, cmap='viridis')
+        scatter = axes[i].scatter(X[:, 0], X[:, 1], c=y, s=20, edgecolor='k', cmap='viridis')
+        axes[i].set_title(f'{title} (Accuracy: {accuracy:.3f})')
+        axes[i].set_xlabel('Feature 1')
+        axes[i].set_ylabel('Feature 2')
+        
+    # Add colorbar
+    cbar = fig.colorbar(scatter, ax=axes)
+    cbar.set_label('Class')
     
-    # Predict the class labels of the mesh grid
-    Z = model.predict(mesh_points_scaled)
-    Z = Z.reshape(xx.shape)
-    
-    # Plot the decision boundary
-    plt.figure(figsize=(10, 8))
-    plt.contourf(xx, yy, Z, alpha=0.3)
-    
-    # Plot the training points
-    scatter = plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k', alpha=0.8)
-    plt.title(title)
-    plt.xlabel('Feature 1')
-    plt.ylabel('Feature 2')
-    plt.colorbar(scatter)
     plt.tight_layout()
-    return plt
+    return fig
 
-# Plot decision boundaries
-plt.figure(figsize=(12, 10))
+# Plot both models' decision boundaries
+plot_decision_boundaries(
+    X, y, 
+    [log_reg, mlp], 
+    ['Logistic Regression', 'Multi-Layer Perceptron'],
+    [log_reg_accuracy, mlp_accuracy]
+)
 
-plt.subplot(2, 1, 1)
-plot_decision_boundary(log_reg, X, y, f'Logistic Regression (Accuracy: {log_reg_accuracy:.3f})')
+# Also create separate plots to clearly see each model's boundary
+plt.figure(figsize=(10, 8))
+plt.title(f'Multi-Layer Perceptron (Accuracy: {mlp_accuracy:.3f})')
+x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+resolution = 0.02
+xx, yy = np.meshgrid(np.arange(x_min, x_max, resolution), 
+                     np.arange(y_min, y_max, resolution))
+mesh_points = np.c_[xx.ravel(), yy.ravel()]
+mesh_points_scaled = scaler.transform(mesh_points)
+Z = mlp.predict(mesh_points_scaled)
+Z = Z.reshape(xx.shape)
+plt.contourf(xx, yy, Z, alpha=0.3, cmap='viridis')
+plt.scatter(X[:, 0], X[:, 1], c=y, edgecolor='k', alpha=0.8)
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.colorbar()
 
-plt.subplot(2, 1, 2)
-plot_decision_boundary(mlp, X, y, f'Multi-Layer Perceptron (Accuracy: {mlp_accuracy:.3f})')
-
-plt.tight_layout()
 plt.show()
